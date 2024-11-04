@@ -1,0 +1,20 @@
+
+body{
+    background-image: url(/assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg);
+}
+
+.cateringheader{
+    background-color: white;
+    color: #5F002B;
+    margin: 10rem;
+    height: 5rem;
+    text-align: center;
+    font-size: 20px;
+    align-content: center;
+}
+
+.cateringimgtop{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
