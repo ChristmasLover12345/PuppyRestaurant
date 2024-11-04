@@ -1,0 +1,32 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: MontaukRegular;
+    src: url(../assets/Montauk-Regular/Montauk-Regular.otf);
+}
+
+body
+{
+    background-image: url(../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg);
+}
+
+.montaukRegular
+{
+    font-family: Fugaz One,Regular;
+    font-size: 25px;
+    color: #5F002B;
+}
+
+.bgPowned
+{
+    background: none;
+}
+
+.decorationPowned
+{
+    text-decoration: none;
+}
