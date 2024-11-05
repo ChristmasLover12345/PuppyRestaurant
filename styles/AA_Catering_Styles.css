@@ -2,6 +2,11 @@ body{
     background-image: url(/assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg);
 }
 
+.pagecontainer{
+    margin: 5rem;
+    flex-wrap: wrap;
+}
+
 .cateringheader{
     background-color: white;
     color: #5F002B;
