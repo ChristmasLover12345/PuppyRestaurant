@@ -1,24 +1,76 @@
 body{
     background-image: url(/assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg);
+    
+}
+
+p{
+    font-size: 1rem;
+}
+
+.muzzleslogo{
+    object-fit: contain;
+    width: auto;
+    height: auto;
+    flex-basis: 250px;
+}
+
+.btnunderline{
+    text-decoration: none;
+    font-size: 20px;
+    color: #5F002B;
 }
 
 .pagecontainer{
-    margin: 5rem;
-    flex-wrap: wrap;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    max-width:max-content;
 }
+
 
 .cateringheader{
     background-color: white;
     color: #5F002B;
-    margin: 10rem;
     height: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
     text-align: center;
     font-size: 20px;
     align-content: center;
+    width: 100%;
 }
 
+
 .cateringimgtop{
-    justify-content: center;
     text-align: center;
-    margin: auto;
+    object-fit: fill;
 }
+
+.companylogo{
+    object-fit: contain;
+    width: 6rem;
+    height: auto;
+}
+
+.textalign{
+    text-align: end;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* .centercol{
+    display: flex;
+    justify-content: center;
+}
+
+.startcol{
+    display: flex;
+    justify-content: start;
+}
+
+.endcol{
+    display: flex;
+    justify-content: end;
+} */
