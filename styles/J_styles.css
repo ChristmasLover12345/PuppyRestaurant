@@ -130,3 +130,23 @@ body
     border-width: 2px;
     border-color: #5F002B;
 }
+
+.seafodPostion
+{
+    grid-column: 5 / 8;
+    grid-row: 2;
+}
+
+.seaFoodImg
+{
+   background-image: url(../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/menuseafood.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 200px;
+    
+}
+
+.invisText
+{
+    color: white;
+}
