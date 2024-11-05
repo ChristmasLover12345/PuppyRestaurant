@@ -204,3 +204,27 @@ body
     color: #5F002B;
     font-family: MontaukLight;
 }
+
+.marginBottomGrill
+{
+    margin-bottom: 100px;
+}
+
+.marginBottomDessert
+{
+    margin-bottom: 100px;
+}
+
+.contactInfo
+{
+    
+    grid-column: 1 / 3;
+    grid-row: 4;
+}
+
+.copyRightInfo
+{
+    grid-column: 9 / 8;
+    grid-row: 4;
+}
+
