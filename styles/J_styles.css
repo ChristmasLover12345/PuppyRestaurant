@@ -9,6 +9,11 @@
     src: url(../assets/Montauk-Regular/Montauk-Regular.otf);
 }
 
+@font-face {
+    font-family: FugazOne;
+    src: url(../assets/Montauk-Regular/JFugazOne-Regular.ttf);
+}
+
 body
 {
     background-image: url(../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg);
@@ -30,3 +35,37 @@ body
 {
     text-decoration: none;
 }
+
+.listLeft
+{
+    position: absolute;
+    right: 5%;
+}
+
+.logoRight
+{
+   padding-left: 100px;
+}
+
+.gridHere
+{
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, fr);
+}
+
+.containerPosition
+{
+    grid-column: 2 / 8;
+}
+
+.menuHeader
+{
+    background-color: white;
+    color: #5F002B;
+    display: flex;
+    justify-content: center;
+    font-family: FugazOne;
+}
+
