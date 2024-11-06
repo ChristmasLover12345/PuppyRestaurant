@@ -103,3 +103,35 @@ p{
     font-family: 'Montauk';
 }
 
+
+/* Responsiveness */
+
+@media screen and (max-width:1024px){
+    .dogs{
+        width: 100%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .dogs{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+@media screen and (max-width:576px){
+    .navigation{
+        gap:.5em;
+    }
+    .topcontainer {
+        display: flex;
+        align-items: left;
+        justify-content: space-between;
+        margin-right:50px;
+    }
+    h1{
+        font-size: 25px;
+    }
+}
+
