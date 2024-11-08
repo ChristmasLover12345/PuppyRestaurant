@@ -13,10 +13,6 @@
     font-style: normal;
 }
 
-
-
-
-
 .woodBackground{
 
 background-image: url(/assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg);
@@ -25,7 +21,6 @@ background-position: center;
 background-size: cover;
 }
 
-.topcontainer {
 
 .container {
 
@@ -153,6 +148,5 @@ p{
 }
 
 
-    font-size: 25px;
-}
+
 
