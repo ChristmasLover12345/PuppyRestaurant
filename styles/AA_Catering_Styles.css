@@ -117,11 +117,11 @@ a{
 } */
 
 
-@media screen and (min-width: 1919.98px) {
+@media screen and (min-width: 1441px) {
     .cateringfont{
         padding-left: 2rem; 
         padding-right: 1rem;  
-        font-size: 20px;
+        font-size: 18px;
     }
     
 }
