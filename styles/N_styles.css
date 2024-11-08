@@ -21,10 +21,15 @@ background-position: center;
 background-size: cover;
 }
 
-.topcontainer {
 
-.container {
+body{
+        background-image: url(/assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        }
 
+.topcontainer{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -149,6 +154,5 @@ p{
 }
 
 
-    font-size: 25px;
-}
+
 
