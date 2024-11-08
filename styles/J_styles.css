@@ -305,6 +305,7 @@ body
     color: #5F002B;
     font-family: FugazOne;
 }
+
 .sandwich2
 {
     grid-column: 5 / 9 ;
@@ -323,6 +324,9 @@ body
 .text-padding{
     padding-bottom: 20px;
 }
+
+
+
 
 
 }
@@ -583,6 +587,7 @@ body
 
 
 
+
     .gridHome
     {
     
@@ -658,6 +663,7 @@ body
     .text-padding{
         padding-bottom: 20px;
     }
+
 
 
 
@@ -934,6 +940,7 @@ body
 
 
 
+
 .gridHome
 {
 
@@ -1009,5 +1016,6 @@ body
 .text-padding{
     padding-bottom: 20px;
 }
+
 
 }
