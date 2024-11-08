@@ -24,9 +24,8 @@ h1{
 }
 
 p{
-    font-size: 1rem;
-    font-family: 'Montauk';
-    color: #5F002B;
+
+    
 }
 
 a{
@@ -71,6 +70,8 @@ a{
     padding-left: 2rem; 
     padding-right: 1rem; 
     font-size: 12px;
+    font-family: 'Montauk';
+    color: #5F002B;
 }
 
 
@@ -117,7 +118,7 @@ a{
 } */
 
 
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1919.98px) {
     .cateringfont{
         padding-left: 2rem; 
         padding-right: 1rem;  
@@ -137,6 +138,12 @@ a{
 
 
 @media screen and (max-width: 1024px){
+
+    .cateringfont{
+        padding-left: 2rem; 
+        padding-right: 1rem;  
+        font-size: 12px;
+    }
     .pagecontainer{
         margin-left: 5rem;
         margin-right: 5rem;
