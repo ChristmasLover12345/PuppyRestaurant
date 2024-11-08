@@ -1,20 +1,182 @@
-
 body{
     background-image: url(/assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg);
+    
 }
+
+@font-face{
+    font-family: FugazOne;
+    src: url('/assets/Montauk-Regular/FugazOne-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: Montauk;
+    src: url(/assets/Montauk-Regular/Montauk-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+h1{
+    font-family: 'FugazOne', sans-serif;
+    color: #5F002B;
+}
+
+p{
+    font-size: 1rem;
+    font-family: 'Montauk';
+    color: #5F002B;
+}
+
+a{
+    font-size: 20px;
+    font-family: 'FugazOne', sans-serif;
+    color: #5F002B;
+}
+
+.muzzleslogo{
+    object-fit: contain;
+    width: auto;
+    height: auto;
+    flex-basis: 250px;
+}
+
+.btnunderline{
+    text-decoration: none;
+    font-size: 20px;
+    color: #5F002B;
+}
+
+.pagecontainer{
+    margin-left: 8rem;
+    margin-right: 8rem;
+    max-width: 100vw;
+}
+
 
 .cateringheader{
     background-color: white;
     color: #5F002B;
-    margin: 10rem;
     height: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
     text-align: center;
     font-size: 20px;
     align-content: center;
+    width: 100%;
 }
 
+.headerbuttons{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5rem;
+}
+
+
 .cateringimgtop{
-    justify-content: center;
     text-align: center;
-    margin: auto;
+    object-fit: fill;
+}
+
+.companylogo{
+    object-fit: contain;
+    width: 6rem;
+    height: auto;
+}
+
+.textalign{
+    text-align: end;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* .centercol{
+    display: flex;
+    justify-content: center;
+}
+
+.startcol{
+    display: flex;
+    justify-content: start;
+}
+
+.endcol{
+    display: flex;
+    justify-content: end;
+} */
+
+
+@media screen and (max-width: 1024px){
+    .pagecontainer{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        max-width: 100vw;
+    }
+
+    .headerbuttons{
+        display: flex;
+        align-items: center; 
+        justify-content: space-evenly;
+        gap: 1rem;
+    }
+
+    .responsepadding{
+        padding: 1rem;
+    }
+
+
+
+}
+
+@media screen and (max-width: 768px){
+    
+    .headerbuttons{
+        display: flex;
+        align-items: center; 
+        justify-content: space-evenly;
+        gap: 1rem;
+    }
+
+    .muzzleslogo{
+        object-fit: contain;
+        width: 12rem;
+        height: auto;
+    }
+    
+    .pagecontainer{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        max-width: 100vw;
+    }
+
+    .responsepadding{
+        padding: 1rem;
+    }
+
+
+
+}
+
+@media screen and (max-width: 576px) {
+    .headerbuttons{
+        display: flex;
+        align-items: center; 
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+
+    .btnfontsizing{
+        font-size: 16px;
+    }
+
+    .muzzleslogo{
+        object-fit: contain;
+        width: 8rem;
+        height: auto;
+    }
 }
