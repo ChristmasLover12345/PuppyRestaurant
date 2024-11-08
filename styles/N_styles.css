@@ -6,21 +6,40 @@
     font-style: normal;
 }
 
+@font-face{
+    font-family: Montauk;
+    src: url(/assets/Montauk-Regular/Montauk-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+
+
 .woodBackground{
+
 background-image: url(/assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 }
+
+.topcontainer {
+
 .container {
+
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+
 .logo img {
     height: auto;
     width: auto;
 }
+
 .navigation{
     display: flex;
     justify-content: space-evenly;
@@ -30,5 +49,110 @@ background-size: cover;
     text-decoration: none;
     color:#5F002B;
     font-family: 'FugazOne', sans-serif;
+
+    font-size: 20px;
+}
+
+/* Start of story behind the grill row */
+.dogs{
+    width: 100%;
+    height: 100%;
+}
+
+.background{
+    background-color:white;
+    font-family: 'FugazOne', sans-serif;
+    color: #5F002B;
+}
+.backgroundbottomtext{
+    font-family: 'Montauk';
+    font-size: 15px;
+    color: #5F002B;
+}
+
+/* Start of Our Team header */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .centeredbox {
+    background: white;
+    font-family: FugazOne;
+    color: #5F002B;
+    width: 1290px;
+    height:80px;
+  }
+  
+  .centeredbox h2 {
+    padding: 20px;
+  }
+
+/* Cards */
+
+
+.no-border {
+    border: none;
+    font-family: FugazOne;
+    color:#5F002B;
+    background-color: white;
+ }
+.cardheights{
+    margin-top: 25px;
+}
+
+/* Bottom header */
+
+.companylogo{
+    object-fit: contain;
+    width: 6rem;
+    height: auto;
+}
+.textalign{
+    text-align: end;
+}
+p{
+    color:#5F002B;
+    font-family: 'Montauk';
+}
+
+
+/* Responsiveness */
+
+@media screen and (max-width:1024px){
+    .dogs{
+        width: 100%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .dogs{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+@media screen and (max-width:576px){
+    .navigation{
+        gap:.5em;
+    }
+    .topcontainer {
+        display: flex;
+        align-items: left;
+        justify-content: space-between;
+        margin-right:50px;
+    }
+    h1{
+        font-size: 25px;
+    }
+}
+
+
     font-size: 25px;
 }
+
