@@ -223,6 +223,22 @@ a{
 
 }
 
+@media screen and (max-width: 1024px) {
+    .headerbuttons{
+        display: flex;
+        align-items: center; 
+        justify-content: space-evenly;
+        gap: 1.5rem;
+    }
+
+    .muzzleslogo{
+        object-fit: contain;
+        width: 14rem;
+        height: auto;
+    }
+    
+}
+
 @media screen and (max-width: 768px){
 
     .pagecontainer{
@@ -235,8 +251,8 @@ a{
     .headerbuttons{
         display: flex;
         align-items: center; 
-        justify-content: space-between;
-        gap: 2rem;
+        justify-content: space-evenly;
+        gap: 1rem;
     }
 
     .muzzleslogo{
@@ -244,7 +260,6 @@ a{
         width: 12rem;
         height: auto;
     }
-
    
 
     .gridcontainer{
@@ -387,16 +402,13 @@ a{
     .headerbuttons{
         display: flex;
         align-items: center; 
-        justify-content: space-between;
-        gap: 5px;
-        font-size: 6px;
+        justify-content: space-evenly;
+        gap: 1rem;
     }
-
-    
 
     .muzzleslogo{
         object-fit: contain;
-        width: 6rem;
+        width: 12rem;
         height: auto;
     }
 
